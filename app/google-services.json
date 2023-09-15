@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1023796960603",
+    "project_id": "sample-3fd9e",
+    "storage_bucket": "sample-3fd9e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1023796960603:android:6d802e92f58c54eb340e7e",
+        "android_client_info": {
+          "package_name": "uk.co.sullenart.sample"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKEoOqaxxlh8m8DRdZeoGbIyanr8QGuDc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
