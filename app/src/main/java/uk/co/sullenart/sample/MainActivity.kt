@@ -3,14 +3,16 @@ package uk.co.sullenart.sample
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import androidx.compose.material3.Text
+import uk.co.sullenart.sample.countries.CountriesScreen
+import uk.co.sullenart.sample.countries.CountriesViewModel
 
-class MainActivity: ComponentActivity() {
+class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        setContent { 
-            Text(text = "Geoff is great!")
+        val viewmodel = CountriesViewModel()
+        setContent {
+            CountriesScreen(viewmodel.countries)
         }
     }
 }
